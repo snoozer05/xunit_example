@@ -8,6 +8,9 @@ class WasRun:
     def testMethod(self):
         self.wasRun = 1
 
+class TestCase:
+    pass
+
 test = WasRun("testMethod")
 print(test.wasRun)
 test.run()
